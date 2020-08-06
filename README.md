@@ -1,12 +1,4 @@
 # Bubble Navigation
-[![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) 
-[ ![Download](https://api.bintray.com/packages/gauravk95/maven-repo/bubblenavigation/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/bubblenavigation/_latestVersion) 
-[![Build Status](https://travis-ci.org/gauravk95/bubble-navigation.svg?branch=master)](https://travis-ci.org/gauravk95/bubble-navigation) 
-[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Bubble%20Navigation-green.svg?style=flat )]( https://android-arsenal.com/details/1/7544 ) 
-[![Android Weekly]( https://img.shields.io/badge/Android%20Weekly-%23351-blue.svg )]( http://androidweekly.net/issues/issue-351 ) 
-[![AwesomeAndroid](https://img.shields.io/badge/Awesome_Android-BubbleNavigation-purple.svg?style=flat)](https://android.libhunt.com/bubble-navigation-alternatives)
-
-🎉 A light-weight library to easily make beautiful Navigation Bars with a ton of 🎨 customization options.
 
 ## Demos
 
@@ -107,36 +99,7 @@ dependencies {
     
     </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
 ```
-#### Using BubbleToggleView
-BubbleToggleView is designed to work as a child component for the `BubbleNavigationLinearView and BubbleNavigationConstraintView`. 
-This view can be used independently for:
-- Custom implementation of NavigationBar 
-- Creation of new UI components
-- ToggleView
 
-| **attr**      | **Description**  |
-| ------------- | ------------- | 
-| bt_active     | Sets to Active State | 
-| bt_colorActive     | When in Active State, uses this color for the Icon and Title  | 
-| bt_colorInctive     | When in Inactive State, uses this color for the Icon and Title  | 
-| bt_icon     | Sets the Icon Drawable | 
-| bt_iconWidth     | Updates the Icon Width| 
-| bt_iconHeigth    | Updates the Icon Height | 
-| bt_title     | Sets the Title Text |
-| bt_titleSize | Updates the Tilte Text Size in sp | 
-| bt_shape     | Sets the Background Drawable. Use **TransitionDrawable** to get fade in-out effect when toggling  | 
-| bt_showShapeAlways  |  If true and using Normal drawable, background shape remains visible always | 
-| bt_shapeColor  |  Changes the tint color of the shape. N/A when using TransitionDrawable or showShapeAlways is true. | 
-| bt_duration     |  Sets time duration for toggle animation to complete in ms | 
-| bt_padding     |  Sets the internal padding in dp | 
-| bt_titlePadding | Sets the title padding in dp | 
-| bt_badgeText | Sets the text for the badge | 
-| bt_badgeTextSize | Sets the font size of the badge text | 
-| bt_badgeTextColor | Sets the text color of the badge | 
-| bt_badgeBackgroundColor | Sets the background color of the badge | 
-
- **Note:** Normal drawables may retain the shape of each Navigation item. Setting the same drawable for each item with different bt_shapeColor properties produces a similar effect while lowering memory usage and improving performance. 
- 
 ### Activity/Fragment
 In Java
 ```java
@@ -169,22 +132,6 @@ I am always open to new suggestions and good contributions.
 
 ## Contact
 
-Feel free to reach out to me at gauravkcs50@gmail.com
+If you want to outsource your Flutter project, email us on info@indylogix.com
 
-## License:
-```
-    Copyright 2019 Gaurav Kumar
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-```
 # bubble_navigation_master
