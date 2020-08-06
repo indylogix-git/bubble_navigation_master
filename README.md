@@ -124,11 +124,6 @@ Or in Kotlin
 | `int getCurrentActiveItemPosition()` | Returns the current active position |
 | `void setBadgeValue(int position, String value)` | Updates the corresponding badge text value |
 
-## Contribute
-
-Users are welcome to suggest ideas or feature requests, or report bugs and issues [here](https://github.com/gauravk95/bubble-navigation/issues)
-
-I am always open to new suggestions and good contributions.
 
 ## Contact
 
